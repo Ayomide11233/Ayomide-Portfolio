@@ -4,7 +4,9 @@ const customstyles = {
   textAlign: "left",
   fontFamily: "PT Sans, sans-serif",
   fontWeight: "100",
+  fontSize: "18px",
     color: "#2F2A2A",
+
 
 };
 

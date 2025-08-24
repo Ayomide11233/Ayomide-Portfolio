@@ -15,14 +15,14 @@ function ProjectCard(props) {
             }}>{props.Title}</h1>
             
             <h2 style={{ 
-                fontSize: "18px", 
+                fontSize: "20px", 
                 fontWeight: "normal", 
                 color: "#2F2A2A", 
                 margin: "0 0 8px 0" 
             }}>{props.Area}</h2>
             
             <p style={{ 
-                fontSize: "16px", 
+                fontSize: "18px", 
                 fontWeight: "normal", 
                 color: "#2F2A2A", 
                 margin: "0 0 30px 0" 
@@ -46,7 +46,7 @@ function ProjectCard(props) {
                 <br />
 
             <p style={{ 
-                fontSize: "16px", 
+                fontSize: "18px", 
                 lineHeight: "1.5", 
                 color: "#2F2A2A", 
                 margin: "0 0 40px 0",
