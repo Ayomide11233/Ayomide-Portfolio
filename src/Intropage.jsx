@@ -24,7 +24,7 @@ function Intropage() {
         <h1 className='secondanimate'>Sayo-adeyemi</h1>
         <br />
         <br />
-        <Avatar img="/Ayo.jpeg" />        
+        <Avatar img="./Ayo.jpeg" />        
         <br />
         <br />
         <p style={customstyles}>Software Engineering Student/Graphic Designer | Building Seamless, User-Focused Web Experiences</p>
