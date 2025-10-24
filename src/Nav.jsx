@@ -6,7 +6,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Project', href: '#project' },
-    { name: 'Resume', href: 'https://drive.google.com/file/d/1eAKnjuYY3iMwojppKHUHZ83UGKZMUNAy/view?usp=sharing', isExternal: true },
+    { name: 'Resume', href: 'https://drive.google.com/file/d/1FBUyJ9r1v4PWratsDWgi-BLzD8jdLKIu/view?usp=sharing', isExternal: true },
     // { name: 'Graphic Design Page', href: 'https://your-graphic-design-page.com', isExternal: true }
   ];
 
