@@ -3,8 +3,8 @@ import ExperienceCard from "./ExperienceCard";
 
 function Experience() {
   return (
-    <div id="experience" style={{ textAlign: "left", fontFamily: "PT Sans, sans-serif", fontWeight: "100", color: "#2F2A2A" }}>
-      <h1>Experience</h1>
+    <div id="experience" style={{ textAlign: "left", fontFamily: "PT Sans, sans-serif", fontWeight: "100", color: "#2F2A2A", padding: "0 1rem" }}>
+      <h1 style={{fontSize: "clamp(28px, 6vw, 40px)"}}>Experience</h1>
       <hr style={{ border: "1px solid black", backgroundColor: "black", color: "black" }} />
           <ExperienceCard
       Title="Founder & Creative Director — fadedvisuals"

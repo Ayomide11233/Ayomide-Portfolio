@@ -4,25 +4,26 @@ function ProjectCard(props) {
     return (
          <div style={{ 
             margin: "20px auto",
-            fontFamily: "PT Sans, sans-serif"
+            fontFamily: "PT Sans, sans-serif",
+            padding: "0 1rem"
         }}>
             <br />
             <h1 style={{ 
-                fontSize: "32px", 
+                fontSize: "clamp(24px, 5vw, 32px)", 
                 fontWeight: "bold", 
                 color: "#2F2A2A", 
                 margin: "0 0 8px 0" 
             }}>{props.Title}</h1>
             
             <h2 style={{ 
-                fontSize: "20px", 
+                fontSize: "clamp(16px, 4vw, 20px)", 
                 fontWeight: "normal", 
                 color: "#2F2A2A", 
                 margin: "0 0 8px 0" 
             }}>{props.Area}</h2>
             
             <p style={{ 
-                fontSize: "18px", 
+                fontSize: "clamp(14px, 3vw, 18px)", 
                 fontWeight: "normal", 
                 color: "#2F2A2A", 
                 margin: "0 0 30px 0" 
@@ -30,12 +31,12 @@ function ProjectCard(props) {
 
             <img
                 style={{
-                    width: 600,
-                    height: 350,
+                    width: "100%",
+                    maxWidth: "600px",
+                    height: "auto",
                     padding: "10px",
                     margin: "0 auto",
                     display: "block",
-                    margin: "0 auto",
                     objectFit: "cover",
                     borderRadius: "12px"
                 }}
@@ -46,7 +47,7 @@ function ProjectCard(props) {
                 <br />
 
             <p style={{ 
-                fontSize: "18px", 
+                fontSize: "clamp(14px, 3vw, 18px)", 
                 lineHeight: "1.5", 
                 color: "#2F2A2A", 
                 margin: "0 0 40px 0",

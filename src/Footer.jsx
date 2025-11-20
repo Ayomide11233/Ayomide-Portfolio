@@ -28,7 +28,7 @@ function Footer() {
     return (
         <footer 
             style={{ 
-                padding: "60px 40px 30px 40px",
+                padding: "clamp(30px, 8vw, 60px) clamp(20px, 5vw, 40px) clamp(15px, 4vw, 30px) clamp(20px, 5vw, 40px)",
                 fontFamily: "PT Sans, sans-serif",
                 position: "relative",
                 transform: isHovered ? "translateY(-10px)" : "translateY(0)",
@@ -42,7 +42,7 @@ function Footer() {
             {/* Main content */}
             <div style={{ textAlign: "center", marginBottom: "40px" }}>
                 <h2 style={{ 
-                    fontSize: "32px", 
+                    fontSize: "clamp(24px, 5vw, 32px)", 
                     fontWeight: "normal", 
                     color: "#2F2A2A", 
                     margin: "0 0 30px 0" 
@@ -55,12 +55,14 @@ function Footer() {
                     border: "none",
                     borderRadius: "8px",
                     padding: "12px 24px",
-                    fontSize: "14px",
+                    fontSize: "clamp(12px, 3vw, 14px)",
                     fontFamily: "PT Sans, sans-serif",
                     cursor: "pointer",
                     letterSpacing: "1px",
                     transform: isHovered ? "scale(1.05)" : "scale(1)",
-                    transition: "transform 0.3s ease"
+                    transition: "transform 0.3s ease",
+                    width: "100%",
+                    maxWidth: "300px"
                     
                     
                 }}
@@ -77,7 +79,9 @@ function Footer() {
                 paddingTop: "20px",
                 display: "flex",
                 justifyContent: "space-between",
-                alignItems: "center"
+                alignItems: "center",
+                flexWrap: "wrap",
+                gap: "20px"
             }}>
                 <div style={{ display: "flex", gap: "20px" }}>
                     <div style={{ 
@@ -110,7 +114,7 @@ function Footer() {
                 </div>
                 
                 <p style={{ 
-                    fontSize: "12px", 
+                    fontSize: "clamp(10px, 2.5vw, 12px)", 
                     color: "#2F2A2A", 
                     margin: "0" 
                 }}>

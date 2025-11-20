@@ -29,11 +29,24 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
 }
 
 button {
@@ -85,4 +98,29 @@ button:focus-visible {
 @keyframes mymove2 {
   from { transform: translateX(200px); }
   to { transform: translateX(0); }
+}
+
+/* Responsive animations */
+@media (max-width: 768px) {
+  @keyframes mymove1 {
+    from { transform: translateX(-100px); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes mymove2 {
+    from { transform: translateX(100px); }
+    to { transform: translateX(0); }
+  }
+}
+
+@media (max-width: 480px) {
+  @keyframes mymove1 {
+    from { transform: translateX(-50px); }
+    to { transform: translateX(0); }
+  }
+  
+  @keyframes mymove2 {
+    from { transform: translateX(50px); }
+    to { transform: translateX(0); }
+  }
 }

@@ -15,8 +15,9 @@
   padding: 6px 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   width: auto;
-  min-width: 480px;
-  height: 46px;
+  min-width: auto;
+  height: auto;
+  min-height: 46px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,30 +70,33 @@
 @media (max-width: 768px) {
   .navbar {
     width: auto;
-    padding: 10px 20px;
+    padding: 8px 12px;
     border-radius: 20px;
   }
   
   .nav-list {
-    gap: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
   }
   
   .nav-link {
-    font-size: 20px;
-    padding: 3px 6px;
+    font-size: 16px;
+    padding: 4px 8px;
   }
 }
 
 @media (max-width: 480px) {
   .navbar {
-    padding: 8px 16px;
+    padding: 6px 10px;
+    border-radius: 15px;
   }
   
   .nav-list {
-    gap: 16px;
+    gap: 10px;
   }
   
   .nav-link {
-    font-size: 15px;
+    font-size: 14px;
+    padding: 3px 6px;
   }
 }
